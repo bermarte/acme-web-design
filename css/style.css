@@ -150,7 +150,6 @@ prevent changing the width of neighbouring links during hover
     float: right;
     margin-top: 15px;
     moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box;
     box-sizing: content-box;
 }
 
@@ -158,15 +157,11 @@ prevent changing the width of neighbouring links during hover
     padding: 4px;
     height: 25px;
     width: 250px;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
     border-radius: 0;
     border: 2px solid white;
 }
 #sidebar input[type="text"],
 #sidebar input[type="email"]{
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
     border-radius: 0;
     border: 2px solid white;
 }
