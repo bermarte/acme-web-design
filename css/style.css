@@ -149,7 +149,6 @@ prevent changing the width of neighbouring links during hover
 #newsletter form{
     float: right;
     margin-top: 15px;
-    moz-box-sizing: content-box;
     box-sizing: content-box;
 }
 
