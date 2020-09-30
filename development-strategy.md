@@ -22,25 +22,25 @@ A junior developer should understand how to work in team and how to work followi
 
 ### Repo
 
-- on GithHub create this repo
-- Generate from Template
-- Write initial, basic README
-- Write initial, basic development strategy
-- Turn on GitHub Pages
-- Clone this repo locally
+1. On GithHub create this repo
+1. Generate from Template
+1. Write initial, basic README
+1. Write initial, basic development strategy
+1. Turn on GitHub Pages
+1. Clone this repo locally
 
 ### Steps to follow
-1. locally, make a new branch
+1. locally, make a new branch  
    `git branch branch_name`
-2. Switch to the new branch
+2. Switch to the new branch  
   `git checkout branch_name`
-3. Add the branch_file to your local repository (Staging)
+3. Add the branch_file to your local repository (Staging)  
    `git add file_name`
-4. commit the changes
+4. commit the changes  
   `git commit -m " message"`
-6. switch to the master branch
+6. switch to the master branch  
   `git checkout master`
-7. repeat 1. for every branch
+7. repeat 1. for every branch  
 
 
 ### Repo
