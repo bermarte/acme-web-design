@@ -61,8 +61,7 @@ what branch(es) did you work on?
  `git push --set-upstream origin branch_name`
 10. Compare, create a pull request on GitHub, write a message, merge and confirm
 11. Repeat 8. to 10. for every branch
-
-12. Continue writing the Devlopment strategy (this file)
+12. On GitHub, continue writing the Development strategy (this file) 
 13. Using githubpages, validate and debug the html files, the CSS and the rest using the template of HYF
 14. Pull master to local
 15. Fix the errors found at 13. on your local computer
