@@ -5,6 +5,7 @@
 write a short description of your project:
 
 Following the tutorial provided we have to rebuild a website containing 3 pages, each on a branch. For every branch we need to create a pull request to the master and merge it later with the master. The foundation and preliminary preparation of this exercise consists of writing and developing a clean development strategy and creating a wireframe.
+[GO TO THE README](readme.md)
 
 - who would want to use it?  
 
@@ -18,7 +19,10 @@ A junior developer should understand how to work in team and how to work followi
 <!-- wireframe.cc is a good site for getting started with wireframes -->
 ![wireframe]()
 
-## Step 0: Create a public repo on GitHub
+## Step 0:
+* Read the text of the assignment
+* follow the tutorial step by step
+* create a wireframe for the project by reverse-engineering the tutorial
 
 ### Repo
 
@@ -55,7 +59,7 @@ what branch(es) did you work on?
 - about  
 - services
 
-8. On your client, chekout one branch at the time
+8. On your client, chekout one branch at the time   
  `git checkout branch_name`
 9. Push it to this repository creating the branch on the server     
  `git push --set-upstream origin branch_name`
@@ -70,6 +74,7 @@ what branch(es) did you work on?
 ### HTML
 
 what did you change in the HTML and why?
+* Removed the class on the button contained in services.html to style it better
 
 ### CSS
 what did you change in the HTML and why?
