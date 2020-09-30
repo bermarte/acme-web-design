@@ -4,7 +4,8 @@
 
 write a short description of your project:
 
-Following the turorial provided we have to rebuild a website containing 3 pages, each on a branch. For every branch we need to create a pull request to the Master and merge them back to the master. The foundation and preliminary preparation of this exercise consists of writing and developing a clean development strategy and creating a wireframe.
+Following the tutorial provided we have to rebuild a website containing 3 pages, each on a branch. For every branch we need to create a pull request to the master and merge it later with the master. The foundation and preliminary preparation of this exercise consists of writing and developing a clean development strategy and creating a wireframe.
+
 - who would want to use it?  
 
 This is a starter project for a beginner, it covers semantic HTML and CSS. We learn how to work with branches, how to develop a strategy to build this and future projects.
