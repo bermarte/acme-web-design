@@ -3,41 +3,61 @@
 > `acme-web-design`
 
 write a short description of your project:
+
+Following the turorial provided we have to rebuild a website containing 3 pages, each on a branch. For every branch we need to create a pull request to the Master and merge them back to the master. The foundation and preliminary preparation of this exercise consists of writing and developing a clean development strategy and creating a wireframe.
 - who would want to use it?  
 
 This is a starter project for a beginner, it covers semantic HTML and CSS. We learn how to work with branches, how to develop a strategy to build this and future projects.
 - why would they want to use it?  
 
-The junior will understand how to work in team and how to work following a clean development strategy.
+A junior developer should understand how to work in team and how to work following a proper development strategy.
 ## Wireframe
 
 <!-- include a wireframe for your project in this repository, and display it here -->
 <!-- wireframe.cc is a good site for getting started with wireframes -->
 ![wireframe]()
 
-## 0. Set-Up
-
-__A User can see my initial repository and live demo__
+## Step 0: Create a public repo on GitHub
 
 ### Repo
 
+- on GithHub create this repo
 - Generate from Template
 - Write initial, basic README
+- Write initial, basic development strategy
 - Turn on GitHub Pages
+- Clone this repo locally
 
-## 1. __
+### Steps to follow
+1. locally, make a new branch
+   `git branch branch_name`
+2. Switch to the new branch
+  `git checkout branch_name`
+3. Add the branch_file to your local repository (Staging)
+   `git add file_name`
+4. commit the changes
+  `git commit -m " message"`
+6. switch to the master branch
+  `git checkout master`
+7. repeat 1. for every branch
 
-__full user story description__
 
 ### Repo
 
 what branch(es) did you work on?
+- master 
+- css
+- imgs
+- index  
+- about  
+- services
 
 ### HTML
 
 what did you change in the HTML and why?
 
 ### CSS
+what did you change in the HTML and why?
 * I have changed the nav of the home page to prevent changing the width of neighbouring links during hover  
 [css-tricks](https://css-tricks.com/bold-on-hover-without-the-layout-shift/)  
 [codepen.io](https://codepen.io/hexagoncircle/pen/WNrYPLo)
