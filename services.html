@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width ">
+    <meta name="description" content="Build an HTML5 Website With a Responsive Layout">
+    <meta name="keywords" content="Traversy, HYF, tutorial, Web Design">
+    <meta name="author" content="Bermarte">
+    <title>Acme Web Design | Services</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Leave this here!  It renders the review buttons  -->
+    <script src='./evaluation/init.js'></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Acme Web Design</span></span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" id="index-link">Home</a></li>
+                    <li><a href="about.html" id="about-link">About</a></li>
+                    <li class="current"><a href="services.html" id="services-link">Services</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- newsletter -->
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subscribe to our Newsletter</h1>
+            <form>
+                <input type="email" placeholder="Enter Email">
+                <button type="submit" class="button_1">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    <!-- main -->
+    <section id="main">
+        <div class="container">
+            <article id="main-col">
+                <h1 class="page-title"> Services</h1>
+                <ul id="services">
+                    <li>
+                        <h3>Website Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sit magnam assumenda cum rerum quasi nulla facilis dolor cumque expedita.</p>
+                        <p>Pricing: &euro; 1.000 - &euro; 3.000</p>
+                    </li>
+                    <li>
+                        <h3>Website Maintenance</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sit magnam assumenda cum rerum quasi nulla facilis dolor cumque expedita.</p>
+                        <p>Pricing: &euro; 250 per month</p>
+                    </li>
+                    <li>
+                        <h3>Website Hosting</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sit magnam assumenda cum rerum quasi nulla facilis dolor cumque expedita.</p>
+                        <p>Pricing: &euro; 25 per month</p>
+                    </li>
+                </ul>
+            </article>
+
+            <aside id="sidebar">
+                <div class="dark">
+                    <h3>Get a quote</h3>
+                    <!--
+                        emmet:
+                        form.quote>div*3button.button_1
+                    -->
+                    <form action="" class="quote">
+                        <div>
+                            <label for="">Name</label><br>
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div>
+                            <label for="">Email</label><br>
+                            <input type="email" placeholder="Email Address">
+                        </div>
+                        <div>
+                            <label for="">Message</label><br>
+                            <textarea placeholder="Message">
+                            </textarea>
+                            
+                        </div>
+                        <div><button type="submit">Send</button></div>
+                    </form>
+                </div>
+            </aside>
+        </div>
+    </section>
+    <footer>
+        <p>Acme Web Design, Copyright &copy; 2020</p>
+    </footer>
+</body>
+
+</html>
