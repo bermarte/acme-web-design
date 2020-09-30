@@ -61,9 +61,11 @@ what did you change in the HTML and why?
 what did you change in the HTML and why?
 * I have changed the nav of the home page to prevent changing the width of neighbouring links during hover  
 [css-tricks](https://css-tricks.com/bold-on-hover-without-the-layout-shift/)  
-[codepen.io](https://codepen.io/hexagoncircle/pen/WNrYPLo)
+[codepen.io](https://codepen.io/hexagoncircle/pen/WNrYPLo)  
 
-* I have tried to give the same width to the input fields and the button of the form contained in services.html when the width of the browser is less or equal to 768 pixels
+* Once the first change was done, I have used Flexbox to fix the orizontal alignment of the elements in the nav
+
+* I have tried to give the same width to the input fields and the button of the form contained in services.html when the width of the browser is less or equal to 768 pixels; once they have the same width they are visually more appealing.
 
 ## Finishing Touches
 
