@@ -26,21 +26,23 @@ A junior developer should understand how to work in team and how to work followi
 1. Generate from Template
 1. Write initial, basic README
 1. Write initial, basic development strategy
-1. Turn on GitHub Pages
+1. Turn on GitHub Pages (https://bermarte.github.io/acme-web-design/)
 1. Clone this repo locally
 
 ### Steps to follow
+
 1. locally, make a new branch  
    `git branch branch_name`
 2. Switch to the new branch  
-  `git checkout branch_name`
+  `git checkout branch_name`   
+   copy the files for that branch and add the HYF template to check the code later   
 3. Add the branch_file to your local repository (Staging)  
    `git add file_name`
-4. commit the changes  
+4. Commit the changes  
   `git commit -m " message"`
-6. switch to the master branch  
+6. Switch to the master branch  
   `git checkout master`
-7. repeat 1. for every branch  
+7. Repeat 1. to 6. for every branch
 
 
 ### Repo
@@ -52,6 +54,19 @@ what branch(es) did you work on?
 - index  
 - about  
 - services
+
+8. On your client, chekout one branch at the time
+ `git checkout branch_name`
+9. Push it to this repository creating the branch on the server     
+ `git push --set-upstream origin branch_name`
+10. Compare, create a pull request on GitHub, write a message, merge and confirm
+11. Repeat 8. to 10. for every branch
+
+12. Continue writing the Devlopment strategy (this file)
+13. Using githubpages, validate and debug the html files, the CSS and the rest using the template of HYF
+14. Pull master to local
+15. Fix the errors found at 13. on your local computer
+16. Once finished push the changes to the server
 
 ### HTML
 
