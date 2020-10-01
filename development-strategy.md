@@ -204,11 +204,15 @@ Creating the services page
  
 - Styling the list contained in the main section
 - Styling the form element
+- Apply media queries for displays `max-width : 768px`
 
 ## Finishing Touches
 
 - Write final, complete README:
   - [makeareadme.com](https://www.makeareadme.com/)
   - [bulldogjob](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-  - [meakaakka](https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3)
+  - [meakaakka](https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3)   
+  
+- Add validator 
 - Validate code to check for any last mistakes
+- Fix bugs and README
