@@ -87,6 +87,8 @@ what did you change in the HTML and why?
 
 * I have tried to give the same width to the input fields and the button of the form contained in services.html when the width of the browser is less or equal to 768 pixels; once they have the same width they are visually more appealing.
 
+* input edges and buttons are now squared like in the video, I like them more like that   
+
 ## Finishing Touches
 
 - Write final, complete README:
