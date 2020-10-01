@@ -14,6 +14,7 @@ This is a starter project for a beginner, it covers semantic HTML and CSS. We le
 - why would they want to use it?  
 
 A junior developer should understand how to work in team and how to work following a proper development strategy.
+
 ## Wireframe
 
 <!-- include a wireframe for your project in this repository, and display it here -->
@@ -21,7 +22,7 @@ A junior developer should understand how to work in team and how to work followi
 ![wireframe IMG](img/traversy_wireframe.png?raw=true)   
 ![wireframe PDF](Wireframing_acme.pdf)
 
-## Step 0:
+## 0 Set-Up:
 * Read the text of the assignment
 * follow the tutorial step by step
 * create a wireframe for the project by reverse-engineering the tutorial
@@ -51,7 +52,7 @@ A junior developer should understand how to work in team and how to work followi
 7. Repeat 1. to 6. for every branch
 
 
-### Repo
+### Branches
 
 what branch(es) did you work on?
 - master 
@@ -60,6 +61,8 @@ what branch(es) did you work on?
 - index  
 - about  
 - services
+
+### Steps to follow
 
 8. On your client, chekout one branch at the time   
  `git checkout branch_name`
@@ -88,7 +91,119 @@ what did you change in the HTML and why?
 
 * I have tried to give the same width to the input fields and the button of the form contained in services.html when the width of the browser is less or equal to 768 pixels; once they have the same width they are visually more appealing.
 
-* input edges and buttons are now squared like in the video, I like them more like that   
+* input edges and buttons are now squared like in the video, I like them more like that.   
+
+## 1. User Story: CREATE INDEX HTML  
+
+Creating the basic layout without CSS to be used for the next pages
+
+### Branches
+
+1. This user story was developed on a brach called `index`
+2. It was merged to `master` when the feature was finished
+
+### HTML 
+
+- Creating the basic HTML structure using Emmet
+- Adding a header element
+- Adding a nav element with a list for the 3 pages to the header
+- Creating the showcase section element with the paragraph containing some dummy text
+- Creating the newsletter section containing the form
+- Creating the boxes section with 3 divs containing each text and the placeholder for an image
+- Adding the footer element
+
+### CSS
+ 
+- None
+ 
+## 2. User Story: CREATE CSS  
+
+Creating the basic style for the home page to be used for all the 3 pages
+
+### Branches
+
+1. This user story was developed on a brach called `css`
+2. It was merged to `master` when the feature was finished.
+
+### HTML   
+
+- None
+
+### CSS
+ 
+- Styling the header
+- Styling the nav
+- Styling the showcase section
+- Styling the newsletter section
+- Styling the boxes section
+- Styling the footer
+ 
+## 3. User Story: IMAGES
+
+Copying the images provided
+
+### Branches
+
+1. This user story was developed on a brach called `imgs`
+2. It was merged to `master` when the feature was finished.
+
+### HTML   
+
+- None
+
+### CSS
+
+- None
+
+## 4. User Story: CREATE ABOUT HTML  
+
+Creating the about page
+
+### Branches
+
+1. This user story was developed on a brach called `about`
+2. It was merged to `master` when the feature was finished
+
+### HTML 
+
+- Adding the HTML from the index file
+- Adapting the header
+- Moving the newsletter section containing the form after the header
+- Deleting the showcase section
+- Deleting the boxes section
+- Creating the main section
+- Within the main section adding an article element containing text in paragraphs
+- Within the main section adding an aside element containg other text
+- Leave the footer at the end
+
+### CSS
+ 
+- Styling the main section
+- Styling the article element
+- Styling the aside element
+
+## 5. User Story: CREATE SERVICES HTML  
+
+Creating the services page
+
+### Branches
+
+1. This user story was developed on a brach called `services`
+2. It was merged to `master` when the feature was finished
+
+### HTML 
+
+- Adding the HTML from the about file
+- Adapting the header
+- Adapting the main section
+- In the main section, within the article element, creating the list of the different services
+- Within the main section, within the aside element, add a contact form
+- Leave the footer at the end
+
+### CSS
+ 
+- Styling the list contained in the main section
+- Styling the form element
 
 ## Finishing Touches
 
