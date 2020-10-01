@@ -49,21 +49,7 @@ A junior developer should understand how to work in team and how to work followi
   `git commit -m " message"`
 6. Switch to the master branch  
   `git checkout master`
-7. Repeat 1. to 6. for every branch
-
-
-### Branches
-
-what branch(es) did you work on?
-- master 
-- css
-- imgs
-- index  
-- about  
-- services
-
-### Steps to follow
-
+7. Repeat 1. to 6. for every branch   
 8. On your client, chekout one branch at the time   
  `git checkout branch_name`
 9. Push it to this repository creating the branch on the server     
@@ -75,6 +61,16 @@ what branch(es) did you work on?
 14. Pull master to local
 15. Fix the errors found at 13. on your local computer
 16. Once finished push the changes to the server
+
+### Branches
+
+what branch(es) did you work on?
+- master 
+- css
+- imgs
+- index  
+- about  
+- services
 
 ### HTML
 
@@ -92,6 +88,8 @@ what did you change in the HTML and why?
 * I have tried to give the same width to the input fields and the button of the form contained in services.html when the width of the browser is less or equal to 768 pixels; once they have the same width they are visually more appealing.
 
 * input edges and buttons are now squared like in the video, I like them more like that.   
+
+---
 
 ## 1. User Story: CREATE INDEX HTML  
 
@@ -114,7 +112,9 @@ Creating the basic layout without CSS to be used for the next pages
 
 ### CSS
  
-- None
+- None   
+
+---
  
 ## 2. User Story: CREATE CSS  
 
@@ -136,9 +136,11 @@ Creating the basic style for the home page to be used for all the 3 pages
 - Styling the showcase section
 - Styling the newsletter section
 - Styling the boxes section
-- Styling the footer
+- Styling the footer   
+
+---
  
-## 3. User Story: IMAGES
+## 3. User Story: IMAGES FOLDER
 
 Copying the images provided
 
@@ -153,7 +155,9 @@ Copying the images provided
 
 ### CSS
 
-- None
+- None   
+
+---
 
 ## 4. User Story: CREATE ABOUT HTML  
 
@@ -180,7 +184,9 @@ Creating the about page
  
 - Styling the main section
 - Styling the article element
-- Styling the aside element
+- Styling the aside element   
+
+---
 
 ## 5. User Story: CREATE SERVICES HTML  
 
@@ -205,6 +211,8 @@ Creating the services page
 - Styling the list contained in the main section
 - Styling the form element
 - Apply media queries for displays `max-width : 768px`
+
+---
 
 ## Finishing Touches
 
