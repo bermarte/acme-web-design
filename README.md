@@ -3,7 +3,7 @@ HYF incremental development week #1
 # Incremental development week 1
 
 ### Development strategy
-[OPEN](development-strategy.md)  
+[OPEN development-strategy.md](development-strategy.md)  
 
 ---
 
@@ -27,8 +27,8 @@ You will be assessed not only on your live demo, but also on the quality of your
 ## Issue Checklist  
 
 
-- [ ] [repo](https://github.com/_/_) (with a complete README)
-- [ ] [live demo](https://_.github.io/_) (turn on GitHub Pages)
-- [ ] [development strategy](https://github.com/_/_/tree/master/development-strategy.md)
-- [ ] [one branch per step](https://github.com/_/_/branches)
-- [ ] [one closed PR per step](https://github.com/_/_/pulls)
+- [x] [repo](https://github.com/bermarte/acme-web-design) (with a complete README)
+- [x] [live demo](https://bermarte.github.io/acme-web-design) (turn on GitHub Pages)
+- [x] [development strategy](https://github.com/bermarte/acme-web-design/blob/master/development-strategy.md)
+- [x] [one branch per step](https://github.com/bermarte/acme-web-design/branches)
+- [x] [one closed PR per step](https://github.com/bermarte/acme-web-design/pulls)
