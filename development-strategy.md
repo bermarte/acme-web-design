@@ -79,7 +79,7 @@ what did you change in the HTML and why?
 
 ### CSS
 what did you change in the HTML and why?
-* I have changed the nav of the home page to prevent changing the width of neighbouring links during hover  
+* I have changed the nav of the home page to prevent moving neighbouring links during hover  
 [css-tricks](https://css-tricks.com/bold-on-hover-without-the-layout-shift/)  
 [codepen.io](https://codepen.io/hexagoncircle/pen/WNrYPLo)  
 
