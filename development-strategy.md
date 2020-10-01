@@ -18,7 +18,7 @@ A junior developer should understand how to work in team and how to work followi
 
 <!-- include a wireframe for your project in this repository, and display it here -->
 <!-- wireframe.cc is a good site for getting started with wireframes -->
-![wireframe]()
+![wireframe](Wireframing_acme.pdf)
 
 ## Step 0:
 * Read the text of the assignment
